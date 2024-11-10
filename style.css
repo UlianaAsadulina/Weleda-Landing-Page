@@ -4,8 +4,7 @@ body {
 }
 
 .navBar {
-    border: 2px solid black;
-    background-color: white;
+    background-color: #f5f0ed;
     position: sticky;
     top: 0;
     width: 100%;
@@ -16,23 +15,32 @@ body {
 
 }
 
-.mainMenu {
-    border: 2px solid blueviolet;
-    width: 70%;
-    justify-content: space-around;
-    align-items: center;
-    
-
+.mainMenu, .buyMenu {
+    list-style: none;
+    /* border: 2px solid blueviolet; */
+    display: flex;    
+    color: #807569;
 }
 
 .buyMenu {
-    border: 2px solid yellow;
-    width: 30%;
     justify-content: right;
+    width: 30%;
+}
+
+.mainMenu {
+    justify-content: left;
+    width: 70%;
 }
 
 .menuButton {
-    border: 2px solid blue;
+    background-color: #f5f0ed;
+    border-color: #f5f0ed;
+    height: 38px;
+    color: #807569;
+    padding: 5px;
+    font-size: 16pt;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .promoContainer {
@@ -48,29 +56,41 @@ body {
 .UPS_Container {
     border: 2px solid red;
     display: flex;
-    margin: 5px;
-    padding: 5px;
+    margin: 20px 10px;
+    padding: 10px;
 }
 
 .productContainer {
-    border: 1px solid purple;
+    border: 1px solid #72a008;
     width: 30%;
-    padding: 5px;
-    justify-content: center;
+    padding: 20px;
+    display: block;
+   
     
 }
 
 .productPhoto:hover {
-    border-bottom: 2px solid greenyellow;
+    border-bottom: 5px solid #72a008;
     width: 90%;
 }
 
 .price {
     font-size: 20pt;
-    color: green;
+    color: #72a008;
 }
 
 .buyButton {
-    border: 2px solid green;
-    height: 30px;
+    border: 2px solid #72a008;
+    border-radius: 5px;
+    background-color: #72a008;
+    height: 36px;
+    color: white;
+    font-size: 18pt;
+    padding: 5px;
+}
+
+.customerPhoto {
+    border: 2px solid #72a008;
+    border-radius: 30px;
+    min-height: 80px;
 }
