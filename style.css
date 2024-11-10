@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a443f;
+}
+
+.navBar {
+    border: 2px solid black;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    min-width: 36px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.mainMenu {
+    border: 2px solid blueviolet;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.buyMenu {
+    border: 2px solid yellow;
+    width: 30%;
+    justify-content: right;
+}
+
+.menuButton {
+    border: 2px solid blue;
+}
+
+.promoContainer {
+    display: block;
+    justify-content: center;
+}
+
+.promoImage {
+    width: 100%;
+}
+
+
+.UPS_Container {
+    border: 2px solid red;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.productContainer {
+    border: 1px solid purple;
+    width: 30%;
+    padding: 5px;
+    justify-content: center;
+    
+}
+
+.productPhoto:hover {
+    border-bottom: 2px solid greenyellow;
+    width: 90%;
+}
+
+.price {
+    font-size: 20pt;
+    color: green;
+}
+
+.buyButton {
+    border: 2px solid green;
+    height: 30px;
+}
