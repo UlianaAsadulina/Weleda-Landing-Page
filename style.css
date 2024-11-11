@@ -106,9 +106,9 @@ input {
 }
 
 
-
 .loginContainer {
-    border: 2px solid gainsboro;
+    border: 2px solid #72a008;
+    color: #807569;
     margin: 50px;
     padding: 50px;
     max-width: 80%;
@@ -127,6 +127,11 @@ input {
     font-size: 16pt;
 
 }
+
+a:link {
+    color: #807569;
+}
+  
 
 input[type=checkbox] {
     width: 18pt;
