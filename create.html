@@ -15,30 +15,42 @@
     <body>
         <h3>Please, fill in the form to create a new account.</h3>
         <h6>Fields with star * are required.</h6>
-        <form action="#">
-            <p>Salutations:</p>
-                <input type="checkbox" name="checkbox1" id="checkbox1"><label for="checkbox1">Mr.</label>
-                <input type="checkbox" name="checkbox2" id="checkbox2"><label for="checkbox1">Ms.</label>
-                <input type="checkbox" name="checkbox3" id="checkbox3"><label for="checkbox3">Mrs.</label>
-                <input type="checkbox" name="checkbox4" id="checkbox4"><label for="checkbox4">Mx.</label>
-                <input type="checkbox" name="checkbox5" id="checkbox5"><label for="checkbox5">None</label>
-            <br>
-            <input type="text" name="firstName" id="FirstName" placeholder="First Name *" required>
-            <br>
-            <input type="text" name="lastName" id="LastName" placeholder="Last Name *" required>
-            <br>
-            <input type="email" name="Email" id="UserEmail" placeholder="E-mail *" required> 
-            <br>
-            <input type="emailC" name="EmailC" id="UserEmailConf" placeholder="Confirm E-mail *" required> 
-            <br>
-            <input type="password" name="Password" id="UserPassword" placeholder="Password *" required>
-            <br>
-            <input type="passwordC" name="PasswordC" id="UserPasswordConf" placeholder="Confirm password *" required>
-            <br>
-
-       
-
-        </form>
+        <div class="inputContainer"></div>
+            <form action="#" class="inputForm">
+                <label for="UserSalutations">Salutations:</label>
+                <select id="UserSalutations">
+                    <option value="---">---</option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Ms.">Ms.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Mx.">Mx.</option>
+                </select>
+                            
+                <br>
+                <input type="text" name="firstName" id="FirstName" placeholder="First Name *" required>
+                <br>
+                <input type="text" name="lastName" id="LastName" placeholder="Last Name *" required>
+                <br>
+                <input type="email" name="Email" id="UserEmail" placeholder="E-mail *" required> 
+                <br>
+                <input type="emailC" name="EmailC" id="UserEmailConf" placeholder="Confirm E-mail *" required> 
+                <br>
+                <input type="password" name="Password" id="UserPassword" placeholder="Password *" required>
+                <br>
+                <input type="passwordC" name="PasswordC" id="UserPasswordConf" placeholder="Confirm password *" required>
+                <br>
+                <input type="date" name="dateBirth" id="UserDateBurth" placeholder="mm/dd/yyyy">
+                <br>
+                <input type="checkbox" name="privPolicy" id="PrivacyPolicy" required>
+                <label for="privPolicy">                
+                    All your personal information will be handled with utmost care and privacy. Please read our  <a href="">Privacy Policy</a> for more information. *
+                </label>
+                <br>
+                <input type="checkbox" name="newsSub" id="NewsLetter"><label for="newsSub">Subscribe to our newsletter</label> 
+                <br>
+                <input type="button" value="SUBMIT">  
+            </form>
+        </div>
 
         
         

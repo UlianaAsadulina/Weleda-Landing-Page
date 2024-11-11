@@ -95,6 +95,18 @@ body {
     min-height: 80px;
 }
 
+input {
+    width: 80%;
+    height: 24pt;
+    margin: 20px;
+    color: #807569;
+    font-size: 16pt;
+    border: 2px solid #72a008;
+    border-radius: 5px;
+}
+
+
+
 .loginContainer {
     border: 2px solid gainsboro;
     margin: 50px;
@@ -102,3 +114,41 @@ body {
     max-width: 80%;
 }
 
+.inputContainer {
+    background-color: #f5f0ed;
+    color: #807569;
+    font-size: 16pt;
+    margin: 20px;
+}
+
+.inputForm {
+    background-color: #f5f0ed;
+    color: #807569;
+    font-size: 16pt;
+
+}
+
+input[type=checkbox] {
+    width: 18pt;
+    height: 18pt;
+    margin-left: 20px;
+    border: 2px solid #72a008;
+    border-radius: 5px;
+}
+
+
+input[type=button] {
+    background-color: #72a008;
+    color: #f5f0ed;
+    width: 120px;
+}
+
+#UserSalutations {
+    width: 300px;
+    height: 24pt;
+    margin: 20px;
+    color: #807569;
+    font-size: 16pt;
+    border: 2px solid #72a008;
+    border-radius: 5px;
+ }
