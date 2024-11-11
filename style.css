@@ -94,3 +94,11 @@ body {
     border-radius: 30px;
     min-height: 80px;
 }
+
+.loginContainer {
+    border: 2px solid gainsboro;
+    margin: 50px;
+    padding: 50px;
+    max-width: 80%;
+}
+
